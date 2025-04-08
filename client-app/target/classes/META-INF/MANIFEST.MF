@@ -1,0 +1,67 @@
+Manifest-Version: 1.0
+Built-By: manishkumarjha
+Build-Jdk: 11.0.15
+Class-Path: libs/helidon-microprofile-core-3.2.12.jar libs/helidon-micro
+ profile-server-3.2.12.jar libs/helidon-microprofile-cdi-3.2.12.jar libs
+ /weld-se-core-3.2.12.jar libs/weld-core-impl-3.2.12.jar libs/weld-envir
+ onment-common-4.0.3.Final.jar libs/weld-api-4.0.SP1.jar libs/weld-spi-4
+ .0.SP1.jar libs/jboss-logging-3.5.3.Final.jar libs/jboss-classfilewrite
+ r-1.2.5.Final.jar libs/helidon-webserver-3.2.12.jar libs/helidon-common
+ -reactive-3.2.12.jar libs/helidon-common-mapper-3.2.12.jar libs/helidon
+ -media-common-3.2.12.jar libs/helidon-common-key-util-3.2.12.jar libs/h
+ elidon-logging-common-3.2.12.jar libs/helidon-tracing-3.2.12.jar libs/h
+ elidon-tracing-config-3.2.12.jar libs/netty-codec-http-4.1.118.Final.ja
+ r libs/netty-common-4.1.118.Final.jar libs/netty-transport-4.1.118.Fina
+ l.jar libs/netty-codec-4.1.118.Final.jar libs/netty-handler-4.1.118.Fin
+ al.jar libs/netty-resolver-4.1.118.Final.jar libs/netty-transport-nativ
+ e-unix-common-4.1.118.Final.jar libs/helidon-webserver-static-content-3
+ .2.12.jar libs/helidon-common-media-type-3.2.12.jar libs/helidon-webser
+ ver-jersey-3.2.12.jar libs/helidon-jersey-server-3.2.12.jar libs/jersey
+ -server-3.0.14.jar libs/jakarta.validation-api-3.0.2.jar libs/netty-buf
+ fer-4.1.118.Final.jar libs/jakarta.interceptor-api-2.0.0.jar libs/jakar
+ ta.enterprise.cdi-api-3.0.0.jar libs/jakarta.el-api-4.0.0.jar libs/heli
+ don-media-jsonp-3.2.12.jar libs/helidon-config-yaml-3.2.12.jar libs/jer
+ sey-weld2-se-3.0.14.jar libs/jersey-cdi1x-3.0.14.jar libs/helidon-jerse
+ y-media-jsonp-3.2.12.jar libs/jersey-media-json-processing-3.0.14.jar l
+ ibs/parsson-media-1.0.5.jar libs/helidon-microprofile-config-3.2.12.jar
+  libs/helidon-config-mp-3.2.12.jar libs/helidon-config-encryption-3.2.1
+ 2.jar libs/helidon-common-crypto-3.2.12.jar libs/helidon-config-object-
+ mapping-3.2.12.jar libs/helidon-microprofile-openapi-3.2.12.jar libs/mi
+ croprofile-config-api-3.0.1.jar libs/helidon-openapi-3.2.12.jar libs/sm
+ allrye-open-api-core-2.1.16.jar libs/smallrye-open-api-jaxrs-2.1.16.jar
+  libs/snakeyaml-2.2.jar libs/helidon-config-3.2.12.jar libs/microprofil
+ e-openapi-api-3.0.jar libs/helidon-webserver-cors-3.2.12.jar libs/helid
+ on-microprofile-health-3.2.12.jar libs/helidon-health-3.2.12.jar libs/h
+ elidon-fault-tolerance-3.2.12.jar libs/helidon-service-common-rest-3.2.
+ 12.jar libs/microprofile-health-api-4.0.jar libs/helidon-health-common-
+ 3.2.12.jar libs/helidon-service-common-rest-cdi-3.2.12.jar libs/micropr
+ ofile-metrics-api-4.0.jar libs/helidon-microprofile-metrics-3.2.12.jar 
+ libs/helidon-common-3.2.12.jar libs/helidon-metrics-api-3.2.12.jar libs
+ /helidon-common-http-3.2.12.jar libs/helidon-metrics-service-api-3.2.12
+ .jar libs/helidon-common-service-loader-3.2.12.jar libs/jakarta.annotat
+ ion-api-2.0.0.jar libs/helidon-metrics-3.2.12.jar libs/helidon-common-c
+ onfigurable-3.2.12.jar libs/jakarta.json.bind-api-2.0.0.jar libs/jersey
+ -media-json-binding-3.0.14.jar libs/jersey-common-3.0.14.jar libs/jakar
+ ta.ws.rs-api-3.0.0.jar libs/jakarta.inject-api-2.0.0.jar libs/osgi-reso
+ urce-locator-1.0.3.jar libs/jakarta.json-api-2.0.2.jar libs/parsson-1.0
+ .5.jar libs/yasson-2.0.4.jar libs/jandex-2.4.3.Final.jar libs/helidon-j
+ ersey-client-3.2.12.jar libs/jersey-client-3.0.14.jar libs/jersey-hk2-3
+ .0.14.jar libs/hk2-locator-3.0.6.jar libs/aopalliance-repackaged-3.0.6.
+ jar libs/hk2-api-3.0.6.jar libs/hk2-utils-3.0.6.jar libs/javassist-3.30
+ .2-GA.jar libs/jakarta.xml.bind-api-3.0.1.jar libs/jakarta.activation-2
+ .0.1.jar libs/helidon-common-context-3.2.12.jar libs/helidon-config-yam
+ l-mp-3.2.12.jar libs/grpc-netty-shaded-1.57.2.jar libs/guava-32.0.1-jre
+ .jar libs/failureaccess-1.0.1.jar libs/listenablefuture-9999.0-empty-to
+ -avoid-conflict-with-guava.jar libs/checker-qual-3.33.0.jar libs/j2objc
+ -annotations-2.8.jar libs/error_prone_annotations-2.3.3.jar libs/perfma
+ rk-api-0.25.0.jar libs/grpc-stub-1.57.2.jar libs/jackson-databind-2.17.
+ 1.jar libs/jackson-annotations-2.18.1.jar libs/jackson-core-2.18.1.jar 
+ libs/grpc-protobuf-1.57.2.jar libs/jsr305-3.0.2.jar libs/protobuf-java-
+ 3.25.5.jar libs/proto-google-common-protos-2.17.0.jar libs/grpc-protobu
+ f-lite-1.65.1.jar libs/grpc-core-1.57.2.jar libs/gson-2.9.0.jar libs/an
+ notations-4.1.1.4.jar libs/animal-sniffer-annotations-1.23.jar libs/grp
+ c-context-1.65.1.jar libs/grpc-api-1.57.2.jar libs/slf4j-jdk14-2.0.13.j
+ ar libs/slf4j-api-2.0.9.jar
+Main-Class: io.helidon.microprofile.cdi.Main
+Created-By: Maven Integration for Eclipse
+
