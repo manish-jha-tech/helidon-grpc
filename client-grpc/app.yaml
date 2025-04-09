@@ -1,0 +1,37 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: client-grpc
+  labels:
+    app: client-grpc
+spec:
+  type: ClusterIP
+  selector:
+    app: client-grpc
+  ports:
+    - name: tcp
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
+---
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: client-grpc
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: client-grpc
+  template:
+    metadata:
+      labels:
+        app: client-grpc
+        version: v1
+    spec:
+      containers:
+      - name: client-grpc
+        image: client-grpc
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080
